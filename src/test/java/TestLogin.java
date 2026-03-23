@@ -32,3 +32,6 @@ public class TestLogin {
     }
 
 }
+
+//setx MISTRAL_API_KEY "8pYiosqeqyNq6XHrr1XEPUYVhvX1u7v0"
+//echo $env:MISTRAL_API_KEY
