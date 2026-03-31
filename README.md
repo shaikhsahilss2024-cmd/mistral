@@ -1,3 +1,18 @@
+**What is “self-healing” in automation?**
+
+Self-healing test automation is an approach where tests don’t fail immediately when the UI changes—instead, they adapt and continue running.
+
+**Normally in Selenium:**
+
+You write a locator (like XPath, ID, CSS)
+If UI changes → locator breaks → test fails 
+
+**With self-healing:**
+
+The system detects the failure
+Finds the element in another way
+Continues the test 
+
 **Mistral AI for Self-Healing in Selenium Framework**
 Mistral AI is a modern large language model (LLM) platform that can understand and generate human-like text, code, and structured data. 
 It provides API access that allows integration with automation frameworks such as Selenium. 
